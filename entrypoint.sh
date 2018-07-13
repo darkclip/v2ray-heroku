@@ -16,7 +16,13 @@ chmod +x v2ctl
 echo -e -n "$CONFIG_JSON1" > config.json
 echo -e -n "$PORT" >> config.json
 echo -e -n "$CONFIG_JSON2" >> config.json
-echo -e -n "$UUID" >> config.json
+echo -e -n "$UUID1" >> config.json
 echo -e -n "$CONFIG_JSON3" >> config.json
+echo -e -n "$UUID2" >> config.json
+echo -e -n "$CONFIG_JSON4" >> config.json
+echo -e -n "$UUID3" >> config.json
+echo -e -n "$CONFIG_JSON5" >> config.json
+echo -e -n "$UUID4" >> config.json
+echo -e -n "$CONFIG_JSON6" >> config.json
 
 ./v2ray
