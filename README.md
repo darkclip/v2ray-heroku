@@ -1,6 +1,6 @@
-# 一键部署 v2ray 到 heroku  [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+# 一键部署到 heroku  [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-1.部署时配置 v2ray core 的版本、Vmess协议的UUID（"alterId"默认为64）、websocket的path和连接缓存。
+1.部署时配置 core 的版本、Vmess协议的UUID（"alterId"默认为64）、websocket的path和连接缓存。
 
 2.服务端部署后，应 open app ，显示 Bad Request，表示部署成功。
 
@@ -9,7 +9,3 @@
 4.客户端配置 Vmess+websocket+tls 传输协议。
 
 
-# 参考 
-https://github.com/v2ray/v2ray-core
-
-https://github.com/onplus/v2hero/
