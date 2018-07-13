@@ -23,6 +23,10 @@
        "description": "Vmess协议UUID，请输入自己的UUID",
        "value": "00000000-0000-0000-0000-000000000000"
      },
+    "WSPATH": {
+       "description": "ws传输设置path",
+       "value": "/"
+    },
     "V2RAY_RAY_BUFFER_SIZE": {
        "description": "每个连接的缓存大小，单位MB",
        "value": "10"
