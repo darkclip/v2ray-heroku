@@ -24,5 +24,7 @@ echo -e -n "$UUID3" >> config.json
 echo -e -n "$CONFIG_JSON5" >> config.json
 echo -e -n "$UUID4" >> config.json
 echo -e -n "$CONFIG_JSON6" >> config.json
+echo -e -n "$WSPATH" >> config.json
+echo -e -n "$CONFIG_JSON7" >> config.json
 
 ./v2ray
